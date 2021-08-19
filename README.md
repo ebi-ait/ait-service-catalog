@@ -56,3 +56,4 @@ This screen contains all the AIT applications with respect to their teams.
 | HCA to SCEA  | cli tool for converting HCA spreadsheets to SCEA magetab files | | https://github.com/ebi-ait/hca-to-scea-tools | Python |
 | GEO to HCA  | cli tool for converting GEO metadata to HCA metadata standard. | | https://github.com/ebi-ait/geo_to_hca| Python |
 | Project Catalogue | Catalogue of projects eligible for the Human Cell Atlas | https://www.ebi.ac.uk/humancellatlas/project-catalogue/ | https://github.com/ebi-ait/projects-index | TypeScript, Angular |
+| Ingest Graph Validator | Neo4J's based graph validator for HCA projects | http://tool.archive.data.humancellatlas.org:7474/browser/ | https://github.com/ebi-ait/ingest-graph-validator | Python |
