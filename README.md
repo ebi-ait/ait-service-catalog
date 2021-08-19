@@ -35,3 +35,24 @@ This screen contains all the AIT applications with respect to their teams.
 | neo4j | | http://biosamples-neo4j:7474/ | | |
 | graylog | | http://biosamples-ops:9000/ | | |
 | spring-boot-admin | | http://biosamples-ops:9010/ | | |  
+
+# HCA services and tools
+[HCA Architecture Diagram](https://ebi-ait.github.io/hca-ebi-dev-team/admin_setup/Onboarding.html)
+
+| Service                     | Description                  | Application URL             | Github       | Developed using
+|  ---------------------------|----------------------------- | ------------------------------- | ----------------------------------------------------------- |--------------------------|
+| Ingest UI  | UI Portal for tracking submissions to DCP | https://contribute.data.humancellatlas.org/ | https://github.com/ebi-ait/ingest-ui | TypeScript, Angular |
+| Ingest Core  | Ingest API | | https://github.com/ebi-ait/ingest-core | Java, Spring |
+| Ingest Broker  | API for submitting spreadsheet / metadata to Ingest|   | https://github.com/ebi-ait/ingest-broker | Python, Flask |
+| Ingest Exporter | exports submission to DCP |  | https://github.com/ebi-ait/ingest-exporter | Python |
+| Ingest Archiver | submit submission metadata to archives |  | https://github.com/ebi-ait/ingest-archiver | Python |
+| Ingest File Archiver | submit submission data files to archives |  | https://github.com/ebi-ait/ingest-file-archiver | TypeScript, NodeJS |
+| Ingest State Tracking | tracks state of DCP submission in Ingest| | https://github.com/ebi-ait/ingest-state-tracking | Java, Spring |  
+| Ingest Validator | validates submission metadata | | https://github.com/ebi-ait/ingest-validator | TypeScript, NodeJS |  
+| Ingest Staging Manager | manages submission upload area for data files | | https://github.com/ebi-ait/ingest-staging-manager | Python |  
+| hca-util | cli tool for uploading data files to submission upload area | | https://github.com/ebi-ait/hca-util | Python |  
+| Upload Service | data file validation service | | https://github.com/ebi-ait/upload-service | Python, Flask |  
+| Ingest Client  | Python wrapper for Ingest | | https://github.com/ebi-ait/ingest-core | Python |
+| HCA to SCEA  | cli tool for converting HCA spreadsheets to SCEA magetab files | | https://github.com/ebi-ait/hca-to-scea-tools | Python |
+| GEO to HCA  | cli tool for converting GEO metadata to HCA metadata standard. | | https://github.com/ebi-ait/geo_to_hca| Python |
+| Project Catalogue | Catalogue of projects eligible for the Human Cell Atlas | https://www.ebi.ac.uk/humancellatlas/project-catalogue/ | https://github.com/ebi-ait/projects-index | TypeScript, Angular |
